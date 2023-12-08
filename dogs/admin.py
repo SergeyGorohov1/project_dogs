@@ -7,7 +7,7 @@ from dogs.models import Dog, Breed
 class DogAdmin(admin.ModelAdmin):
     list_display = ("name", "breed")
     list_filter = ("name", "breed", "birth_day")
-    search_fields = ("name", "breed")
+    search_fields = ("name",)
 
 
 
