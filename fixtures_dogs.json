@@ -1,0 +1,66 @@
+[
+  {
+    "model": "dogs.breed",
+    "pk": 1,
+    "fields": {
+      "name": "Обычная",
+      "description": "Обычная собака"
+    }
+  },
+  {
+    "model": "dogs.breed",
+    "pk": 2,
+    "fields": {
+      "name": "Дворовая",
+      "description": "Дворовая собака"
+    }
+  },
+  {
+    "model": "dogs.breed",
+    "pk": 3,
+    "fields": {
+      "name": "Породистая",
+      "description": "Породистая собака"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 1,
+    "fields": {
+      "name": "Дружок",
+      "breed": 1,
+      "photo": "dogs/Без_названия.jpg",
+      "birth_day": "2023-12-08"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 2,
+    "fields": {
+      "name": "Дружище",
+      "breed": 2,
+      "photo": "dogs/Без_названия_uqfUsqK.jpg",
+      "birth_day": "2023-12-08"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 3,
+    "fields": {
+      "name": "Пес",
+      "breed": 3,
+      "photo": "dogs/Без_названия_NJv2Vct.jpg",
+      "birth_day": "2023-12-08"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 4,
+    "fields": {
+      "name": "Рекс",
+      "breed": 1,
+      "photo": "dogs/Без_названия_UiekJM4.jpg",
+      "birth_day": "2023-12-08"
+    }
+  }
+]
