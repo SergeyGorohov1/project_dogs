@@ -15,7 +15,7 @@ class Breed(models.Model):
         verbose_name_plural = "Породы"
 
 
-class Dogs(models.Model):
+class Dog(models.Model):
     name = models.CharField(max_length=100, verbose_name="Кличка")
     breed = models.ForeignKey(Breed, on_delete=models.SET_NULL, **NULLABLE, verbose_name="Порода")
     photo = models.ImageField(upload_to="dogs/", **NULLABLE, verbose_name="Фото")
