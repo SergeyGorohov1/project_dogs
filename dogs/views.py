@@ -13,3 +13,9 @@ def breeds(request):
         "object_list": Breed.objects.all()
     }
     return render(request, "dogs/index.html", context)
+
+def dogs_breeds(request, pk):
+    context = {
+        "object_list": Dog.objects.filter(breed__pk=pk)
+    }
+    return render(request, "dogs/dogs.html", context)
